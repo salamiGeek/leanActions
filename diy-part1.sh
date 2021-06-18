@@ -10,7 +10,7 @@
 
 # Uncomment a feed source
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
-# Add a feed source
+# Add a kenzok8/openwrt-packages 这是一个宝藏仓库
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # trojan
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
