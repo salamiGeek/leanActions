@@ -15,3 +15,5 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+# adguardHome
+sed -i '$a src-git small https://github.com/rufengsuixing/luci-app-adguardhome' feeds.conf.default
